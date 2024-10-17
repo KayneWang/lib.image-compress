@@ -1,0 +1,25 @@
+{
+  "name": "lib.image-compress",
+  "version": "1.0.0",
+  "description": "compress images",
+  "bin": {
+    "image-compress": "./index.js"
+  },
+  "files": ["index.js", "compress.js"],
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["sharp", "compress", "image"],
+  "author": {
+    "name": "Kayne",
+    "email": "w.zengkai@gmail.com"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "ora": "^8.1.0",
+    "sharp": "^0.33.5"
+  }
+}
